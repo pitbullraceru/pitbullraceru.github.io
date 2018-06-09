@@ -2551,6 +2551,9 @@ tr:nth-child(even) {
 	font-size:2rem;
 	font-weight: bold;
 }
+.sold {
+	color:#898e89;
+}
 .pitbg-image {
 	background-image: url(../img/bg/2.jpg);
 }
@@ -13367,6 +13370,15 @@ button.btn {
 }
 .price-stripe {
 	background: #ff8900;
+    position: absolute;
+    color: #fff;
+	font-weight: bold;
+    padding: 5px 8px 3px 15px;
+    margin: 22px -1px 0 auto;
+    right: 0px;
+}
+.inactive-stripe {
+	background: #797877;
     position: absolute;
     color: #fff;
 	font-weight: bold;
