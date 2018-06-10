@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /index.php
+
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+# Index file
+DirectoryIndex index.html 
+
+# Redirects
+ RewriteRule ^index.php$ / [QSA,R]
+ RewriteRule ^index.html$ / [QSA,R]
