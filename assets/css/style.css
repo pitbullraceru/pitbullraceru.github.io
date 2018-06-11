@@ -12907,15 +12907,15 @@ button.btn {
 .navbar-default .navbar-right > li > a:hover {
     color: #416467;
 }
-.nav-download a {
-    background-color: #324040;
+.nav-catalogue a {
+    background-color: #ff8900;
     color: #ffffff !important;
     border-radius: 4px;
     padding: 12px 20px !important;
     margin: 8px 0 8px 20px;
 }
-.nav-download a:hover {
-    background-color: #1578aa !important;
+.nav-catalogue a:hover {
+    background-color: #324040 !important;
 }
 .top-header {
     background-image: url(../img/bg/1.jpg);
@@ -14223,12 +14223,12 @@ aside,
         width: 100%;
     }
     .navbar-nav>li>a {
-        padding: 20px 12px;
+        padding: 20px 6px;
     }
     .navbar-default .navbar-nav > li > a {
         font-size: 1.4rem;
     }
-    .nav-download a {
+    .nav-catalogue a {
         margin-left: 12px;
     }
     .cta-section {
@@ -14343,7 +14343,7 @@ aside,
     .navbar-nav>li>a {
         padding: 12px;
     }
-    .nav-download a {
+    .nav-catalogue a {
         margin-left: 12px;
         width: calc(100% - 24px);
     }
