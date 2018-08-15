@@ -2551,6 +2551,9 @@ tr:nth-child(even) {
 	font-size:2rem;
 	font-weight: bold;
 }
+.sold {
+	color:#898e89;
+}
 .pitbg-image {
 	background-image: url(../img/bg/2.jpg);
 }
@@ -12904,15 +12907,15 @@ button.btn {
 .navbar-default .navbar-right > li > a:hover {
     color: #416467;
 }
-.nav-download a {
-    background-color: #324040;
+.nav-catalogue a {
+    background-color: #ff8900;
     color: #ffffff !important;
     border-radius: 4px;
     padding: 12px 20px !important;
     margin: 8px 0 8px 20px;
 }
-.nav-download a:hover {
-    background-color: #1578aa !important;
+.nav-catalogue a:hover {
+    background-color: #324040 !important;
 }
 .top-header {
     background-image: url(../img/bg/1.jpg);
@@ -13083,6 +13086,8 @@ button.btn {
 }
 .goods-intro {
 	background-color: #f7f7f7;
+	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	border-radius: 2px;
     padding: 10px 25px 50px 25px;
     margin-top: 41px;
     margin-bottom: 30px;
@@ -13362,6 +13367,24 @@ button.btn {
 }
 .video-play-icon i {
     margin-left: 12px;
+}
+.price-stripe {
+	background: #ff8900;
+    position: absolute;
+    color: #fff;
+	font-weight: bold;
+    padding: 5px 8px 3px 15px;
+    margin: 22px -1px 0 auto;
+    right: 0px;
+}
+.inactive-stripe {
+	background: #797877;
+    position: absolute;
+    color: #fff;
+	font-weight: bold;
+    padding: 5px 8px 3px 15px;
+    margin: 22px -1px 0 auto;
+    right: 0px;
 }
 .screenshots {
     overflow: hidden;
@@ -14141,6 +14164,10 @@ aside,
 }
 .goods-items {
 	padding-bottom: 15px;
+	transition:all .8s;
+}
+.goods-items:hover {
+	transform: scale(1.06);
 }
 .client-mock {
     float: left;
@@ -14196,12 +14223,12 @@ aside,
         width: 100%;
     }
     .navbar-nav>li>a {
-        padding: 20px 12px;
+        padding: 20px 6px;
     }
     .navbar-default .navbar-nav > li > a {
         font-size: 1.4rem;
     }
-    .nav-download a {
+    .nav-catalogue a {
         margin-left: 12px;
     }
     .cta-section {
@@ -14316,7 +14343,7 @@ aside,
     .navbar-nav>li>a {
         padding: 12px;
     }
-    .nav-download a {
+    .nav-catalogue a {
         margin-left: 12px;
         width: calc(100% - 24px);
     }
