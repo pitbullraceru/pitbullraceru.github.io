@@ -13088,9 +13088,8 @@ button.btn {
 	background-color: #f7f7f7;
 	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 	border-radius: 2px;
-    padding: 10px 25px 50px 25px;
+    padding: 10px 25px 70px 25px;
     margin-top: 41px;
-    margin-bottom: 30px;
     transition: all 0.4s ease;
 }
 .intro:hover {
@@ -13137,6 +13136,10 @@ button.btn {
 }
 .intro:hover li {
     color: #f6f6f6;
+}
+.pitname {
+	font-size:1.5rem;
+	margin-bottom:7px;
 }
 .features-area {
     background-image: url(../img/bg/2.jpg);
@@ -13369,22 +13372,29 @@ button.btn {
     margin-left: 12px;
 }
 .price-stripe {
-	background: #ff8900;
-    position: absolute;
-    color: #fff;
+    color: #ff8900;
 	font-weight: bold;
-    padding: 5px 8px 3px 15px;
-    margin: 22px -1px 0 auto;
-    right: 0px;
+    padding-top: 3px;
+	text-align:center;
+	margin-bottom:10px;
 }
 .inactive-stripe {
-	background: #797877;
-    position: absolute;
-    color: #fff;
+    color: #797877;
 	font-weight: bold;
-    padding: 5px 8px 3px 15px;
-    margin: 22px -1px 0 auto;
-    right: 0px;
+    padding-top: 3px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.pit-link {
+	text-align:center;
+	align:center;
+	margin-top:20px;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:14px;
+}
+.pit-link a {
+	border-bottom:1px solid;
 }
 .screenshots {
     overflow: hidden;
