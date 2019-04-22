@@ -5037,6 +5037,9 @@ a.label:hover {
 .label-danger[href]:hover {
     background-color: #c9302c
 }
+.contact-detail a {
+	color:#fff;
+}
 .badge {
     display: inline-block;
     min-width: 10px;
