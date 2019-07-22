@@ -14502,3 +14502,10 @@ aside,
         margin-top: 20px;
     }
 } 
+.show-all-btn {
+	display: inline-block;
+	margin: 27px auto;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
