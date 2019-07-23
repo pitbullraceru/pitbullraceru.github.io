@@ -14502,6 +14502,16 @@ aside,
         margin-top: 20px;
     }
 } 
+.big-boss {
+	zoom: 1.2;
+    margin: -20px auto 25px;
+}
+.big-boss .member-name,
+.big-boss .member-work,
+.big-boss p {
+	font-weight:bold;
+	color:#222;
+}
 .show-all-btn {
 	display: inline-block;
 	margin: 27px auto;
