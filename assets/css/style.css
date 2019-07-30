@@ -13048,6 +13048,18 @@ button.btn {
 .bookv2 h1 {
     margin-top: 0;
 }
+.free-shipping {
+	float:right;
+	margin:9px;
+	color:#505050;
+	border-bottom: 1px solid #444;
+	display:block;
+}
+.free-shipping strong {
+	font-family: Roboto, sans-serif;
+	padding:0 0 0 10px;
+	text-transform:uppercase;
+}
 .cta-section {
     background-color: #324040;
     padding: 40px 0;
