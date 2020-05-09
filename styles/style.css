@@ -1985,6 +1985,11 @@ section {
 	background:#232323;
  	-webkit-transform: translate3d(0,0,0);
 }
+.price-txt {
+	padding-top:12px;
+	font-size:19px !important;
+	font-weight:bold !important;
+}
 .fixed-top-panel .scroll-down-wrap {
 	float:left;
 	position:relative;
