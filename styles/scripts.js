@@ -657,7 +657,7 @@ function initNastik() {
     });
 
 //   cursor ------------------
-    $("a , .btn ,   textarea,   input , .single-carousel-control_list li , .sb-button , .share-btn").on({
+    $("input").on({
         mouseenter: function () {
             TweenMax.to('.element-item ', 0.4, {
                 borderColor: 'transparent',
