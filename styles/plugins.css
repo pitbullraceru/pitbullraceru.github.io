@@ -126,14 +126,14 @@ source {
 }
 .lg-actions .lg-next:before {
     font-family: Font Awesome\ 5 Pro;
-  content: "\f178";
+  content: "→";
 }
 .lg-actions .lg-prev {
   left: 20px;
 }
 .lg-actions .lg-prev:after {
 	font-family: Font Awesome\ 5 Pro;
-  content: "\f177";
+  content: "←";
 }
 
 @-webkit-keyframes lg-right-end {
@@ -261,7 +261,7 @@ source {
   color: #FFF;
 }
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "✖";
 }
 .lg-toolbar .lg-download:after {
   content: "\e0f2";
@@ -590,7 +590,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 #lg-zoom-in:after {
-  content: "\e311";
+  content: "+";
 }
 
 #lg-zoom-out {
@@ -598,7 +598,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   pointer-events: none;
 }
 #lg-zoom-out:after {
-  content: "\e312";
+  content: "-";
 }
 .lg-zoomed #lg-zoom-out {
   opacity: 1;
